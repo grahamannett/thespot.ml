@@ -11,6 +11,21 @@
 
 <link href='48679090-formview_st_ltr.css' type='text/css' rel='stylesheet'>
 <style type="text/css">
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background-color: rgb(231,238,247);
   background-image: url('https://lh6.googleusercontent.com/rRQ3bQi9rilyHgxsOjjxVoBXVF5M0OVV5Pkv5PwAQE89ptm7F5G37SM29oghY2N-ySDrNw');
@@ -288,11 +303,16 @@ input[type='text'], input:not([type]), textarea {
 
 <div class="ss-form-container"><div class="ss-header-image-container"><div class="ss-header-image-image"><div class="ss-header-image-sizer"></div></div></div>
 <div class="ss-top-of-page"><div class="ss-form-heading"><h1 class="ss-form-title" dir="ltr">where&#39;s your spot</h1>
+
 <div class="ss-form-desc ss-no-ignore-whitespace" dir="ltr">signup below to be entered for free merchandise and downloads to Gucci Mane&#39;s &#39;The Spot&#39; movie </div>
 
-<iframe width="630" height="472.5" src="https://www.youtube.com/embed/2vPkL_SDgxg" frameborder="0" allowfullscreen></iframe>
 
 <div class="ss-required-asterisk" aria-hidden="true">* Required</div></div></div>
+
+<div class="videoWrapper">
+<iframe height="100%" src="https://www.youtube.com/embed/2vPkL_SDgxg" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <div class="ss-form"><form action="https://docs.google.com/forms/d/1jY_lVDhoFpgjgWsspkCUie4ArdBPmQGL-0VLhwY0jvM/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
 <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
